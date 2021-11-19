@@ -25,7 +25,7 @@ const AddService = () => {
             setIsLoading(true)
             // send to the server
             console.log(product)
-            fetch('http://localhost:5000/servicesadd', {
+            fetch('https://rocky-ocean-66909.herokuapp.com/servicesadd', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
@@ -47,10 +47,8 @@ const AddService = () => {
     return (
         <div>
             <Navigation></Navigation>
-            <h2>Add SErvice</h2>
-
             
-                <h2>Add an product</h2>
+                <h2 class="pt-5">Add an Service</h2>
                 {addProductSuccess && <Alert severity="success">Successfully Add Product Database!</Alert>}
                 <form onSubmit={handleProductSubmit}>
                     <TextField

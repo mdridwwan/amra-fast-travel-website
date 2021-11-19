@@ -15,7 +15,7 @@ const MyOrders = () => {
 
     useEffect(() => {
         setIsLoading(true)
-        const url = `http://localhost:5000/order?email=${user.email}`
+        const url = `https://rocky-ocean-66909.herokuapp.com/order?email=${user.email}`
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -26,7 +26,7 @@ const MyOrders = () => {
 
     const handleWithOrderCencel = (id) =>{
         console.log('cencel', id)
-        const url = `http://localhost:5000/order/${id}`;
+        const url = `https://rocky-ocean-66909.herokuapp.com/order/${id}`;
         fetch(url, {
             method: 'DELETE'
         })

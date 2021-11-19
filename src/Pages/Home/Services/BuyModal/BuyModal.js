@@ -51,7 +51,7 @@ const BuyModal = ({ setBuySuccess, product, openProduct, setInsertId, handleProd
         }
         // send to the server
         console.log(product)
-        fetch('http://localhost:5000/order', {
+        fetch('https://rocky-ocean-66909.herokuapp.com/order', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

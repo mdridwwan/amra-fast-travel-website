@@ -12,7 +12,7 @@ const ManagesAllOrder = () => {
 
     useEffect(() => {
         setIsLoading(true)
-        const url = 'http://localhost:5000/allorder'
+        const url = 'https://rocky-ocean-66909.herokuapp.com/allorder'
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -22,7 +22,7 @@ const ManagesAllOrder = () => {
     }, [])
     const handleWithOrderCencel = (id) => {
         console.log('cencel', id)
-        const url = `http://localhost:5000/order/${id}`;
+        const url = `https://rocky-ocean-66909.herokuapp.com/order/${id}`;
         fetch(url, {
             method: 'DELETE'
         })
