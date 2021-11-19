@@ -15,7 +15,8 @@ const Slider = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>Super Bike</h3>
+                        <h3>TRAVEL BUDDY FOR
+                            YOUR ADVENTURES</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
 
@@ -30,7 +31,8 @@ const Slider = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Super Bike</h3>
+                        <h3>TRAVEL BUDDY FOR
+                            YOUR ADVENTURES</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -43,7 +45,8 @@ const Slider = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Super Shops</h3>
+                        <h3>TRAVEL BUDDY FOR
+                            YOUR ADVENTURES</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
